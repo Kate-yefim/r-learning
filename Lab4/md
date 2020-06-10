@@ -99,7 +99,7 @@ smoldata
   
   Яке максимальне значення «Ozone» для травня («Month» дорівнює 5)?
   
-  max(data$Ozone[dada$Month == 5], na.rm = TRUE)
+  max(data$Ozone[data$Month == 5], na.rm = TRUE)
   
   [1] 115
   
